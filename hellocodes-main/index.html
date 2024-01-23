@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Codes</title>
+    <link rel="stylesheet" href="src/css/headerstyle.css">
+    <link rel="stylesheet" href="src/css/fontconfig.css">
+    <link rel="stylesheet" href="src/css/main/index.css">
+    <link rel="icon" href="/src/img/'Hello Codes New.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/2718f72d5c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+      <div id="loading">
+        사용자 정보 불러오는 중...
+    </div>
+    <div class="page" hidden="true">
+        <div class="sidebar">
+            <div class="logo-details">
+              <!-- <i class='bx bxl-c-plus-plus icon'></i> -->
+                <div class="logo_name">Hello Codes</div>
+                <i class='bx bx-menu' id="btn" ></i>
+            </div>
+            <ul class="nav-list">
+              <li>
+                  <i class='bx bx-search' ></i>
+                 <input type="text" placeholder="검색">
+                 <span class="tooltip">검색</span>
+              </li>
+              <li>
+                <a href="/problemlist/">
+                    <i class='bx bx-code-curly'></i>
+                  <span class="links_name">문제</span>
+                </a>
+                 <span class="tooltip">문제</span>
+              </li>
+              <li>
+               <a href="#">
+                <i class='bx bx-chat' ></i>
+                 <span class="links_name">커뮤니티</span>
+               </a>
+               <span class="tooltip">커뮤니티</span>
+             </li>
+             <li>
+               <a href="#">
+                 <i class='bx bx-pie-chart-alt-2' ></i>
+                 <span class="links_name">통계</span>
+               </a>
+               <span class="tooltip">통계</span>
+             </li>
+             <li>
+               <a href="#">
+                <i class='bx bxs-star' ></i>
+                 <span class="links_name">랭킹</span>
+               </a>
+               <span class="tooltip">랭킹</span>
+             </li>
+             <li>
+               <a href="/lab/">
+                <i class='bx bxs-flask'></i>
+                 <span class="links_name">실험실</span>
+               </a>
+               <span class="tooltip">실험실</span>
+             </li>
+             <li>
+               <a href="#">
+                 <i class='bx bx-cog' ></i>
+                 <span class="links_name">설정</span>
+               </a>
+               <span class="tooltip">설정</span>
+             </li>
+             <li>
+              <a href="https://hellocodes.selock.xyz">
+                <i class='bx bxs-store-alt' ></i>
+                <span class="links_name">아이템 스토어</span>
+              </a>
+              <span class="tooltip">아이템 스토어</span>
+            </li>
+             <li class="profile">
+                 <div class="profile-details">
+                   <img src="profile.jpg" alt="profileImg" hidden="true">
+                   <div class="name_job">
+                     <div class="name"><a href="/profile/"></a></div>
+                   </div>
+                   <div class="loginbtn"><a href="/account/login/">로그인</a></div>
+                 </div>
+                 <i class='bx bx-log-in' id="log_out"></i>
+             </li>
+            </ul>
+          </div>
+          <div id="area">
+            <div id="margintop1"></div>
+            <h1 class="textcenter" id="main">Hello Codes</h1>
+            <h1 class="textcenter">마음껏 파이썬 알고리즘 문제를 풀어봐요!</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="new">
+                <h1>따끈따끈한 새로운 문제🔥</h1>
+            </div>
+            <div id="gonanido">
+                <h1>고난이도 문제! 풀수 있으면 풀어보세요🧠</h1>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div style="text-align: center;">
+              <iframe title="클릭몬 광고" width="728" height="90" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1137443%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL&mon_direct_url=URLENCODE_PASSBACK_INPUT" frameborder="0" scrolling="no"></iframe>
+              <div style="margin-bottom: 35px;"></div>
+              <h1 id="discorda" title="Go Go!"><a href="https://discord.gg/cgwB5QRS88">공식 디스코드 서버<img src="/src/img/discord-mark-black.svg" alt="" width="30px" height="30px" style="margin-left: 15px; "></a></h1>
+              <br>
+              <br>
+              
+            </div>
+          </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/src/js/main/index.js" type="module"></script>
+
+    <script>
+        (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+      </script>
+      <script>
+        ChannelIO('boot', {
+            "pluginKey": "d01d87e2-f968-4960-b88c-7c289288947e" // fill your plugin key
+        });
+      </script>
+        <script>
+            let sidebar = document.querySelector(".sidebar");
+            let closeBtn = document.querySelector("#btn");
+            let searchBtn = document.querySelector(".bx-search");
+          
+            closeBtn.addEventListener("click", ()=>{
+              sidebar.classList.toggle("open");
+              menuBtnChange();
+            });
+          
+            searchBtn.addEventListener("click", ()=>{ 
+              sidebar.classList.toggle("open");
+              menuBtnChange();
+            });
+          
+            function menuBtnChange() {
+             if(sidebar.classList.contains("open")){
+               closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+             }else {
+               closeBtn.classList.replace("bx-menu-alt-right","bx-menu");
+             }
+            }   
+            </script>
+</body>
+</html>
