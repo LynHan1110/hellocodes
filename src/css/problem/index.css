@@ -1,0 +1,49 @@
+dialog {
+    border-radius: 10px;
+    text-align: center;
+}
+
+dialog > div {
+    text-align: center;
+}
+#compilearea button:nth-child(1) {
+    margin-left: 15px;
+}
+dialog button, #compilearea button {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    width: auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button {
+    color: black;
+}
+
+.tag_all {
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+
+.icon {
+    padding: 2.5px 2.5px;
+    border: 2px solid gray;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: #B1B5B8 ;
+    font-family: 'Noto Color Emoji', sans-serif;
+}

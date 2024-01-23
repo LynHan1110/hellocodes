@@ -1,0 +1,16 @@
+.textcenter {
+    text-align: center;
+}
+
+#main {
+    font-size: 70px;
+}
+
+#discorda > a  {
+    color: black;
+    text-decoration: none;
+}
+
+#discorda:hover {
+    text-decoration: underline;
+}
